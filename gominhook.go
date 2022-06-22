@@ -9,7 +9,7 @@ import (
 /*
 #cgo CFLAGS: -I${SRCDIR}/MinHook_133_bin/include
 #cgo amd64 LDFLAGS: -L${SRCDIR}/MinHook_133_bin/bin -lMinHook.x64
-#cgo 386 LDFLAGS: -L${SRCDIR}/MinHook_133_bin/bin -lMinHook.gcc.x86
+#cgo 386 LDFLAGS: -L${SRCDIR}/MinHook_133_bin/bin -lMinHook.x86
 #include "MinHook.h"
 */
 import "C"
